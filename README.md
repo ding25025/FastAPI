@@ -1,4 +1,4 @@
-# CompalAPI
+# Fast API Demo
 ## Swagger API Document
 http://127.0.0.1:8000/docs/
 
@@ -12,13 +12,13 @@ http://127.0.0.1:8000
 ## build docker image
 
 ```
-docker image build -t compalapi_test .
+docker image build -t fastapi_test .
 
 ```
  
 ## run docker image
 
 ```
-docker run --restart=always -p 8000:8000  --network=host -t compalapi_test
+docker run --restart=always -p 8000:8000  --network=host -t fastapi_test
 
 ```

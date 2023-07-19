@@ -1,8 +1,8 @@
 FROM python
 
-WORKDIR /compalapp
+WORKDIR /app
 
-COPY . /compalapp
+COPY . /app
 
 # RUN apt-get update
 
